@@ -31,7 +31,7 @@ THE SOFTWARE.
 
 from datetime import datetime
 import time as pytime
-from time import sleep
+from asyncio import sleep
 
 
 def until(time):
