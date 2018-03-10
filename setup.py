@@ -1,14 +1,14 @@
 from distutils.core import setup
 
 setup(
-    name='pause',
+    name='aiopause',
     version='0.1.2',
     license='LICENSE.txt',
-    author='Jeremy Gillick',
+    author='Patrick Thomas',
     author_email='none@none.com',
     packages=['pause', 'pause.tests'],
-    url='https://github.com/jgillick/python-pause',
-    description='A timestamp-based sleep function for Python.',
+    url='https://github.com/Tinkerwolf/python-pause',
+    description='A timestamp-based sleep function for AsyncIO based on Jeremy\'s pause.',
     long_description=open('README.rst').read(),
     platforms='osx, posix, linux, windows',
     keywords='sleep timestamp datetime',
